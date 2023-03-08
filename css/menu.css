@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem 3rem 7rem;
+}
+
+.menu header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-title{
+    margin-left: 0.5rem;
+}
+
+.menu nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item{
+    margin-right: 2rem;
+}
+
+.menu-list-item a:hover {
+    color: cadetblue;
+}
+
+.menu-list-item:last-child {
+    font-weight: 600;
+}

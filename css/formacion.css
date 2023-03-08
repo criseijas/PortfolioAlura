@@ -1,0 +1,34 @@
+.formacion{
+    padding: 1rem 7rem;
+    background: #EAF2FD;
+}
+
+.formacion-title{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.courses-box{
+    height: 20rem;
+    width: calc(100%/5);
+}
+
+.course-img{
+    background: #ffffff;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+
+

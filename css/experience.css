@@ -1,0 +1,53 @@
+.experience {
+    padding: 1rem 7rem;
+}
+
+.experience-title {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.experience-box {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+}
+
+.experience-box:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.experience-box:last-child {
+    flex-direction: row-reverse;
+}
+
+.experience-img {
+    width: 50%;
+}
+
+.experience-text {
+    font-weight: 100;
+}
+
+
+.experiencie-boton--repo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2A7AE4;
+    width: 7rem;
+    height: 3rem;
+    border: 2px solid #2A7AE4;
+    cursor: pointer;
+}
+
+.experience-boton--demo {
+    background: #2A7AE4;
+    color: white;
+    border: 1px solid #2A7AE4;
+    width: 6.5rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.about {
+    background: #EAF2FD;
+    padding: 0 7rem;
+}
+
+.about-container{
+    width: 70%;
+    padding: 1.5rem 0;
+}
+
+.about-title{
+    font-size: 1.7rem;
+}
+
+.about p{
+    font-size: 1.2rem;
+}

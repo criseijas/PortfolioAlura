@@ -1,0 +1,32 @@
+.skills{
+    padding: 1rem 7rem;
+}
+
+.skills-title{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.skills-line{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.skills-box{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 10rem;
+    width: calc(100% / 8 - 1rem);
+    justify-content: end;
+}
+
+.skills-box ul {
+    padding-left: 1rem;
+}
+
+.skills-box img {
+    margin-bottom: 0.5rem;
+}
