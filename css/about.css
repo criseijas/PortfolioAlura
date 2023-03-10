@@ -15,3 +15,33 @@
 .about p{
     font-size: 1.2rem;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .about {
+        padding: 1.5rem;
+    }
+
+    .about-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-title {
+        margin-top: .5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about {
+        padding: 1rem 2rem;
+    }
+
+    .about-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-title {
+        margin-top: .5rem;
+    }
+}

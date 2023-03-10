@@ -30,3 +30,37 @@
 .hobbies-box img {
     margin-bottom: 0.5rem;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .hobbies {
+        padding: 1rem;
+    }
+
+    .hobbies-line {
+        height: 70vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .hobbies-box {
+        width: calc(100% / 2 - 1rem);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .hobbies {
+        padding: 2rem;
+    }
+
+    .hobbies-line {
+        height: 45vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .hobbies-box {
+        height: 9.5rem;
+        width: calc(100% / 3 - 1rem);
+    }
+}

@@ -28,6 +28,60 @@
     align-items: center;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .formacion {
+        padding: 1.5rem;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+    .courses-box {
+        width: 100%;
+    }
+
+    .courses-box ul {
+        padding: 0;       
+    }
+
+    .course-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1620px) {
+    .formacion {
+        padding: 2rem;
+    }
+
+    .courses{
+        flex-wrap: wrap;
+    }
+    
+
+    .courses-box ul {
+        padding: 0;
+    }
+
+    .courses-box {
+        width: calc(130% / 3);
+        /*width: calc(100% / 8 - 1rem);*/
+    }
+
+    .course-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
 
     
 

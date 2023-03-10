@@ -30,3 +30,37 @@
 .skills-box img {
     margin-bottom: 0.5rem;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .skills {
+        padding: 1rem;
+    }
+
+    .skills-line {
+        height: 70vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .skills-box {
+        width: calc(100% / 4 - 1rem);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .skills {
+        padding: 2rem;
+    }
+
+    .skills-line {
+        height: 45vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .skills-box {
+        height: 9.5rem;
+        width: calc(100% / 4 - 1rem);
+    }
+}

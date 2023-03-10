@@ -128,3 +128,34 @@
     cursor: pointer;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .formcontacto {
+        padding: 1.5rem;
+    }
+
+    .formcontacto__img {
+        display: none;
+    }
+
+    .formcontacto__contacto  {
+        gap: 0;
+        height: 80vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .formcontacto {
+        padding: 2rem;
+    }
+
+    .formcontacto__img {
+        display: none;
+    }
+
+    .formcontacto__contacto  {
+        gap: 0;
+        height: 80vh;
+    }
+}
+

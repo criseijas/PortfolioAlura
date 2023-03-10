@@ -33,3 +33,47 @@
 .menu-list-item:last-child {
     font-weight: 600;
 }
+
+@media only screen and (min-width: 0px) {
+    .menu {
+        padding: 0 1rem;
+        justify-content: space-around;
+    }
+
+    .menu-list-item {
+        display: none;
+    }
+
+    .menu-list-item-c {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    .menu-title {
+        font-size: 1.5rem;
+    }
+
+    .menu-list-item-c {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1071px) {
+    .menu-list-item {
+        display: flex;
+        margin-right: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1072px) {
+    .menu-list-item {
+        display: flex;
+    }
+}
